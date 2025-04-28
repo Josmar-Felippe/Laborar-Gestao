@@ -1,0 +1,70 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      /* background-color: #004d40; */
+      background-image: url('../Img/medtra.png'); 
+      background-color: rgba(0, 77, 64, 0.4); /* Cor com transparência */
+      background-size: cover;                  /* Faz a imagem cobrir todo o header */
+      background-position: center;             /* Centraliza a imagem */
+      background-blend-mode: overlay; /* Mistura a cor e a imagem */
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      opacity: 0.5; /* 60% visível */
+    }
+
+    header h1 {
+      font-size: 3rem; /* Deixa o título maior */
+      font-weight: bold; /* Deixa o texto mais grosso */
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Sombra preta para realçar */
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Sombra mais leve para o parágrafo */
+      margin-top: 10px;
+    }
+
+    main {
+      padding-bottom: 80px; /* para não sobrepor o footer fixo */
+    }
+
+    section {
+      padding: 20px;
+      background: white;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      /* position: fixed; */
+      width: 100%;
+      bottom: 0;
+    }
+
+ .botao-voltar {
+    display: inline-block;
+    margin: 0 20px 20px;  
+    padding: 12px 20px;
+    background-color: #1a8f7b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+    .botao-voltar:hover {
+      background-color: #004d40;
+    }
